@@ -1,0 +1,501 @@
+Name,Date,Check-In Time,Status
+Elon Musk,2025-06-18,08:54,Present
+Margaret Hamilton,2025-06-14,08:52,Present
+Grace Hopper,2025-06-15,-,Absent
+Grace Hopper,2025-06-13,08:45,Present
+Tim Berners-Lee,2025-06-15,09:01,Present
+Grace Hopper,2025-06-09,09:05,Present
+Tim Berners-Lee,2025-06-11,09:13,Late
+Margaret Hamilton,2025-06-13,08:46,Present
+Alan Turing,2025-06-20,08:51,Present
+Margaret Hamilton,2025-06-04,08:54,Present
+Tim Berners-Lee,2025-06-19,09:06,Late
+Guido van Rossum,2025-06-19,08:58,Present
+Tim Berners-Lee,2025-06-08,09:06,Late
+Margaret Hamilton,2025-06-16,08:56,Present
+Tim Berners-Lee,2025-06-07,08:45,Present
+Elon Musk,2025-06-13,08:47,Present
+Jane Smith,2025-06-01,09:09,Late
+Margaret Hamilton,2025-06-02,08:57,Present
+John Doe,2025-06-16,09:07,Late
+John Doe,2025-06-18,08:49,Present
+Alan Turing,2025-06-02,08:57,Present
+Linus Torvalds,2025-06-04,08:49,Present
+Elon Musk,2025-06-06,09:05,Present
+Alan Turing,2025-06-17,09:02,Present
+Margaret Hamilton,2025-06-11,09:14,Late
+Alan Turing,2025-06-16,08:55,Present
+Alan Turing,2025-06-04,09:15,Late
+Guido van Rossum,2025-06-02,09:03,Present
+Tim Berners-Lee,2025-06-02,09:03,Present
+John Doe,2025-06-04,08:50,Present
+Grace Hopper,2025-06-19,09:14,Late
+Elon Musk,2025-06-07,09:07,Late
+Ada Lovelace,2025-06-07,-,Absent
+John Doe,2025-06-11,09:05,Present
+Grace Hopper,2025-06-16,08:51,Present
+Margaret Hamilton,2025-06-01,08:53,Present
+Ada Lovelace,2025-06-08,08:52,Present
+Ada Lovelace,2025-06-01,08:58,Present
+Margaret Hamilton,2025-06-19,08:49,Present
+Alan Turing,2025-06-09,08:55,Present
+John Doe,2025-06-09,09:06,Late
+Ada Lovelace,2025-06-15,08:54,Present
+Tim Berners-Lee,2025-06-15,08:49,Present
+Margaret Hamilton,2025-06-12,08:56,Present
+Ada Lovelace,2025-06-02,08:58,Present
+Margaret Hamilton,2025-06-04,08:54,Present
+Grace Hopper,2025-06-01,-,Absent
+Linus Torvalds,2025-06-14,08:55,Present
+Jane Smith,2025-06-05,08:48,Present
+Tim Berners-Lee,2025-06-19,08:45,Present
+Elon Musk,2025-06-12,09:06,Late
+Linus Torvalds,2025-06-09,08:52,Present
+Elon Musk,2025-06-06,08:58,Present
+Ada Lovelace,2025-06-16,08:50,Present
+Elon Musk,2025-06-07,08:46,Present
+Guido van Rossum,2025-06-14,09:02,Present
+Tim Berners-Lee,2025-06-16,08:50,Present
+Ada Lovelace,2025-06-16,09:05,Present
+Margaret Hamilton,2025-06-04,09:12,Late
+Grace Hopper,2025-06-01,08:51,Present
+Margaret Hamilton,2025-06-19,09:15,Late
+Linus Torvalds,2025-06-10,08:59,Present
+Alan Turing,2025-06-20,08:54,Present
+Alan Turing,2025-06-06,08:47,Present
+Guido van Rossum,2025-06-12,08:47,Present
+John Doe,2025-06-14,09:02,Present
+John Doe,2025-06-05,09:02,Present
+Ada Lovelace,2025-06-20,08:48,Present
+Jane Smith,2025-06-12,09:12,Late
+Tim Berners-Lee,2025-06-02,08:46,Present
+Elon Musk,2025-06-18,08:52,Present
+Alan Turing,2025-06-04,-,Absent
+John Doe,2025-06-20,08:48,Present
+John Doe,2025-06-05,-,Absent
+Alan Turing,2025-06-20,09:00,Present
+Grace Hopper,2025-06-15,09:08,Late
+Elon Musk,2025-06-01,08:50,Present
+Alan Turing,2025-06-17,09:06,Late
+John Doe,2025-06-09,08:56,Present
+Alan Turing,2025-06-09,08:50,Present
+Guido van Rossum,2025-06-12,09:13,Late
+Jane Smith,2025-06-03,-,Absent
+Linus Torvalds,2025-06-15,08:57,Present
+Elon Musk,2025-06-07,08:56,Present
+Linus Torvalds,2025-06-09,-,Absent
+John Doe,2025-06-17,09:00,Present
+Linus Torvalds,2025-06-20,09:03,Present
+Jane Smith,2025-06-17,08:55,Present
+Margaret Hamilton,2025-06-15,09:15,Late
+Margaret Hamilton,2025-06-19,08:46,Present
+Alan Turing,2025-06-06,08:45,Present
+Alan Turing,2025-06-08,08:49,Present
+Alan Turing,2025-06-11,-,Absent
+Linus Torvalds,2025-06-04,09:06,Late
+Linus Torvalds,2025-06-18,08:51,Present
+Alan Turing,2025-06-02,09:06,Late
+Tim Berners-Lee,2025-06-06,08:57,Present
+John Doe,2025-06-15,08:57,Present
+Jane Smith,2025-06-08,09:05,Present
+Linus Torvalds,2025-06-05,09:05,Present
+Alan Turing,2025-06-05,08:53,Present
+Elon Musk,2025-06-15,09:08,Late
+Elon Musk,2025-06-04,09:08,Late
+Guido van Rossum,2025-06-04,-,Absent
+Jane Smith,2025-06-07,-,Absent
+Elon Musk,2025-06-13,08:57,Present
+John Doe,2025-06-01,09:06,Late
+Margaret Hamilton,2025-06-11,08:58,Present
+Margaret Hamilton,2025-06-10,09:02,Present
+Ada Lovelace,2025-06-01,09:07,Late
+Ada Lovelace,2025-06-14,09:05,Present
+Ada Lovelace,2025-06-12,09:13,Late
+Linus Torvalds,2025-06-14,09:09,Late
+Margaret Hamilton,2025-06-20,08:53,Present
+Ada Lovelace,2025-06-14,08:50,Present
+Margaret Hamilton,2025-06-13,09:09,Late
+John Doe,2025-06-10,08:51,Present
+Jane Smith,2025-06-07,08:45,Present
+Tim Berners-Lee,2025-06-16,09:00,Present
+Grace Hopper,2025-06-10,-,Absent
+Jane Smith,2025-06-08,08:53,Present
+Margaret Hamilton,2025-06-16,09:03,Present
+Margaret Hamilton,2025-06-17,08:45,Present
+Elon Musk,2025-06-18,08:59,Present
+Elon Musk,2025-06-10,09:12,Late
+Guido van Rossum,2025-06-17,09:10,Late
+Margaret Hamilton,2025-06-07,09:11,Late
+John Doe,2025-06-19,09:12,Late
+Ada Lovelace,2025-06-14,09:14,Late
+Jane Smith,2025-06-05,09:11,Late
+Ada Lovelace,2025-06-02,09:07,Late
+Ada Lovelace,2025-06-13,08:49,Present
+Tim Berners-Lee,2025-06-10,09:02,Present
+Tim Berners-Lee,2025-06-10,08:58,Present
+Jane Smith,2025-06-13,-,Absent
+Guido van Rossum,2025-06-15,08:47,Present
+John Doe,2025-06-20,09:08,Late
+Guido van Rossum,2025-06-15,09:09,Late
+Alan Turing,2025-06-18,09:13,Late
+Guido van Rossum,2025-06-08,08:55,Present
+Grace Hopper,2025-06-09,08:55,Present
+Jane Smith,2025-06-08,08:47,Present
+Tim Berners-Lee,2025-06-13,09:05,Present
+John Doe,2025-06-15,08:48,Present
+Linus Torvalds,2025-06-19,08:59,Present
+Tim Berners-Lee,2025-06-13,08:48,Present
+Jane Smith,2025-06-02,08:59,Present
+Jane Smith,2025-06-04,08:54,Present
+Grace Hopper,2025-06-10,09:00,Present
+Ada Lovelace,2025-06-16,08:52,Present
+Jane Smith,2025-06-05,09:03,Present
+Alan Turing,2025-06-13,09:14,Late
+Elon Musk,2025-06-06,09:08,Late
+Jane Smith,2025-06-08,09:00,Present
+Jane Smith,2025-06-18,-,Absent
+John Doe,2025-06-10,08:50,Present
+Ada Lovelace,2025-06-20,09:15,Late
+Tim Berners-Lee,2025-06-18,09:08,Late
+Elon Musk,2025-06-02,-,Absent
+Elon Musk,2025-06-11,09:03,Present
+John Doe,2025-06-05,09:03,Present
+Guido van Rossum,2025-06-12,09:10,Late
+Grace Hopper,2025-06-01,09:04,Present
+Grace Hopper,2025-06-06,08:50,Present
+Alan Turing,2025-06-18,09:04,Present
+Guido van Rossum,2025-06-17,09:09,Late
+Ada Lovelace,2025-06-04,09:06,Late
+Margaret Hamilton,2025-06-05,08:58,Present
+Jane Smith,2025-06-02,09:07,Late
+Jane Smith,2025-06-06,08:58,Present
+Elon Musk,2025-06-11,09:14,Late
+Elon Musk,2025-06-05,09:04,Present
+Margaret Hamilton,2025-06-13,08:56,Present
+Grace Hopper,2025-06-16,09:00,Present
+Grace Hopper,2025-06-13,08:59,Present
+Tim Berners-Lee,2025-06-07,09:03,Present
+Elon Musk,2025-06-16,08:46,Present
+Grace Hopper,2025-06-04,08:51,Present
+Ada Lovelace,2025-06-16,-,Absent
+John Doe,2025-06-17,08:59,Present
+Linus Torvalds,2025-06-04,08:51,Present
+Grace Hopper,2025-06-14,09:01,Present
+Linus Torvalds,2025-06-11,-,Absent
+Margaret Hamilton,2025-06-08,09:01,Present
+Ada Lovelace,2025-06-10,08:58,Present
+Linus Torvalds,2025-06-16,08:49,Present
+Ada Lovelace,2025-06-02,09:01,Present
+Grace Hopper,2025-06-11,-,Absent
+Tim Berners-Lee,2025-06-02,09:08,Late
+Guido van Rossum,2025-06-16,09:11,Late
+Alan Turing,2025-06-07,-,Absent
+Alan Turing,2025-06-04,09:07,Late
+Alan Turing,2025-06-18,08:47,Present
+Tim Berners-Lee,2025-06-13,09:13,Late
+Alan Turing,2025-06-14,09:08,Late
+Margaret Hamilton,2025-06-06,09:07,Late
+Guido van Rossum,2025-06-16,09:11,Late
+Guido van Rossum,2025-06-06,09:06,Late
+Guido van Rossum,2025-06-18,09:07,Late
+John Doe,2025-06-15,09:01,Present
+Grace Hopper,2025-06-11,-,Absent
+Linus Torvalds,2025-06-05,09:07,Late
+Margaret Hamilton,2025-06-03,-,Absent
+Linus Torvalds,2025-06-09,08:56,Present
+Alan Turing,2025-06-06,09:04,Present
+Tim Berners-Lee,2025-06-08,08:47,Present
+Linus Torvalds,2025-06-02,-,Absent
+Guido van Rossum,2025-06-05,09:05,Present
+Margaret Hamilton,2025-06-14,08:48,Present
+Elon Musk,2025-06-06,09:14,Late
+Margaret Hamilton,2025-06-11,-,Absent
+Grace Hopper,2025-06-14,08:50,Present
+Grace Hopper,2025-06-02,08:55,Present
+Tim Berners-Lee,2025-06-08,09:11,Late
+John Doe,2025-06-10,08:57,Present
+John Doe,2025-06-13,09:08,Late
+Ada Lovelace,2025-06-08,09:12,Late
+Tim Berners-Lee,2025-06-06,08:50,Present
+Elon Musk,2025-06-18,09:11,Late
+Guido van Rossum,2025-06-09,09:11,Late
+Jane Smith,2025-06-11,08:55,Present
+Guido van Rossum,2025-06-05,-,Absent
+Elon Musk,2025-06-10,09:13,Late
+Tim Berners-Lee,2025-06-17,08:53,Present
+Ada Lovelace,2025-06-08,08:56,Present
+Elon Musk,2025-06-01,09:04,Present
+Guido van Rossum,2025-06-20,-,Absent
+Ada Lovelace,2025-06-02,09:05,Present
+Alan Turing,2025-06-17,08:57,Present
+Jane Smith,2025-06-15,08:58,Present
+Jane Smith,2025-06-05,09:11,Late
+Alan Turing,2025-06-10,09:01,Present
+Margaret Hamilton,2025-06-01,08:49,Present
+Elon Musk,2025-06-13,08:53,Present
+Linus Torvalds,2025-06-01,08:59,Present
+Margaret Hamilton,2025-06-03,08:55,Present
+Guido van Rossum,2025-06-12,08:53,Present
+Margaret Hamilton,2025-06-04,09:09,Late
+Ada Lovelace,2025-06-07,09:05,Present
+Alan Turing,2025-06-10,08:54,Present
+Grace Hopper,2025-06-06,08:51,Present
+Jane Smith,2025-06-05,08:52,Present
+Jane Smith,2025-06-16,09:06,Late
+Guido van Rossum,2025-06-13,08:55,Present
+Elon Musk,2025-06-09,-,Absent
+John Doe,2025-06-12,08:53,Present
+Alan Turing,2025-06-02,09:03,Present
+Margaret Hamilton,2025-06-02,09:06,Late
+Alan Turing,2025-06-13,09:11,Late
+Margaret Hamilton,2025-06-01,09:10,Late
+Alan Turing,2025-06-06,09:05,Present
+Grace Hopper,2025-06-01,08:57,Present
+John Doe,2025-06-05,09:04,Present
+John Doe,2025-06-11,-,Absent
+Margaret Hamilton,2025-06-11,09:14,Late
+Grace Hopper,2025-06-05,09:11,Late
+Ada Lovelace,2025-06-09,09:09,Late
+Tim Berners-Lee,2025-06-09,08:49,Present
+Tim Berners-Lee,2025-06-09,-,Absent
+Jane Smith,2025-06-13,09:03,Present
+John Doe,2025-06-04,09:14,Late
+Margaret Hamilton,2025-06-05,08:48,Present
+Guido van Rossum,2025-06-07,-,Absent
+Guido van Rossum,2025-06-08,09:10,Late
+Alan Turing,2025-06-07,09:15,Late
+Grace Hopper,2025-06-15,09:11,Late
+Jane Smith,2025-06-06,08:54,Present
+Guido van Rossum,2025-06-15,08:53,Present
+Grace Hopper,2025-06-20,09:01,Present
+John Doe,2025-06-14,09:03,Present
+Grace Hopper,2025-06-02,09:01,Present
+Tim Berners-Lee,2025-06-16,09:15,Late
+Elon Musk,2025-06-19,-,Absent
+Margaret Hamilton,2025-06-17,09:13,Late
+Elon Musk,2025-06-10,08:49,Present
+Grace Hopper,2025-06-19,08:59,Present
+Jane Smith,2025-06-12,08:49,Present
+Jane Smith,2025-06-13,09:07,Late
+Guido van Rossum,2025-06-05,09:06,Late
+Margaret Hamilton,2025-06-19,08:49,Present
+Guido van Rossum,2025-06-03,09:02,Present
+Linus Torvalds,2025-06-11,08:52,Present
+Margaret Hamilton,2025-06-19,09:14,Late
+Jane Smith,2025-06-13,-,Absent
+Alan Turing,2025-06-14,08:58,Present
+Margaret Hamilton,2025-06-01,09:09,Late
+Grace Hopper,2025-06-19,08:54,Present
+Guido van Rossum,2025-06-02,-,Absent
+Linus Torvalds,2025-06-11,08:52,Present
+Elon Musk,2025-06-09,08:48,Present
+Linus Torvalds,2025-06-02,08:49,Present
+Tim Berners-Lee,2025-06-20,09:07,Late
+John Doe,2025-06-20,09:06,Late
+Jane Smith,2025-06-13,09:09,Late
+John Doe,2025-06-05,08:46,Present
+Grace Hopper,2025-06-11,09:08,Late
+Linus Torvalds,2025-06-10,09:13,Late
+Elon Musk,2025-06-16,08:50,Present
+Alan Turing,2025-06-18,09:03,Present
+Elon Musk,2025-06-10,09:01,Present
+Alan Turing,2025-06-19,08:47,Present
+Jane Smith,2025-06-04,09:04,Present
+Margaret Hamilton,2025-06-18,09:06,Late
+John Doe,2025-06-16,09:05,Present
+Ada Lovelace,2025-06-18,-,Absent
+Tim Berners-Lee,2025-06-03,08:58,Present
+Guido van Rossum,2025-06-09,09:03,Present
+Alan Turing,2025-06-01,08:46,Present
+Guido van Rossum,2025-06-05,09:03,Present
+Guido van Rossum,2025-06-11,09:12,Late
+Linus Torvalds,2025-06-04,08:45,Present
+Margaret Hamilton,2025-06-10,-,Absent
+Guido van Rossum,2025-06-13,08:52,Present
+Margaret Hamilton,2025-06-17,08:58,Present
+Grace Hopper,2025-06-03,08:48,Present
+John Doe,2025-06-10,08:58,Present
+Linus Torvalds,2025-06-10,08:55,Present
+Jane Smith,2025-06-18,08:45,Present
+Guido van Rossum,2025-06-17,09:15,Late
+Jane Smith,2025-06-19,09:11,Late
+Alan Turing,2025-06-01,08:56,Present
+Linus Torvalds,2025-06-15,08:48,Present
+Guido van Rossum,2025-06-08,08:48,Present
+Tim Berners-Lee,2025-06-06,-,Absent
+John Doe,2025-06-20,08:53,Present
+Jane Smith,2025-06-04,08:47,Present
+Elon Musk,2025-06-13,-,Absent
+Grace Hopper,2025-06-18,09:14,Late
+John Doe,2025-06-06,09:03,Present
+John Doe,2025-06-07,09:10,Late
+Tim Berners-Lee,2025-06-17,08:46,Present
+Tim Berners-Lee,2025-06-18,09:15,Late
+Jane Smith,2025-06-19,09:12,Late
+Tim Berners-Lee,2025-06-04,09:15,Late
+Margaret Hamilton,2025-06-12,08:59,Present
+Guido van Rossum,2025-06-05,08:49,Present
+Alan Turing,2025-06-13,08:53,Present
+John Doe,2025-06-18,-,Absent
+Tim Berners-Lee,2025-06-16,08:56,Present
+Margaret Hamilton,2025-06-08,09:13,Late
+Tim Berners-Lee,2025-06-17,08:55,Present
+Elon Musk,2025-06-19,08:56,Present
+Tim Berners-Lee,2025-06-03,09:09,Late
+Ada Lovelace,2025-06-12,08:53,Present
+Guido van Rossum,2025-06-15,08:45,Present
+Alan Turing,2025-06-16,-,Absent
+Tim Berners-Lee,2025-06-16,08:53,Present
+John Doe,2025-06-16,09:09,Late
+Grace Hopper,2025-06-10,-,Absent
+Tim Berners-Lee,2025-06-10,08:47,Present
+Margaret Hamilton,2025-06-15,-,Absent
+Linus Torvalds,2025-06-16,-,Absent
+Grace Hopper,2025-06-11,09:05,Present
+Ada Lovelace,2025-06-06,09:10,Late
+Jane Smith,2025-06-03,08:53,Present
+Guido van Rossum,2025-06-16,09:10,Late
+Tim Berners-Lee,2025-06-10,09:12,Late
+Linus Torvalds,2025-06-18,08:54,Present
+John Doe,2025-06-11,09:02,Present
+Guido van Rossum,2025-06-07,-,Absent
+Grace Hopper,2025-06-10,08:51,Present
+Linus Torvalds,2025-06-05,09:06,Late
+Grace Hopper,2025-06-15,09:08,Late
+Linus Torvalds,2025-06-17,09:11,Late
+Tim Berners-Lee,2025-06-07,09:07,Late
+Tim Berners-Lee,2025-06-02,09:05,Present
+John Doe,2025-06-02,08:57,Present
+Grace Hopper,2025-06-14,-,Absent
+Margaret Hamilton,2025-06-01,08:49,Present
+Linus Torvalds,2025-06-10,-,Absent
+Jane Smith,2025-06-09,08:47,Present
+Linus Torvalds,2025-06-03,09:06,Late
+John Doe,2025-06-07,09:09,Late
+John Doe,2025-06-18,09:07,Late
+Ada Lovelace,2025-06-02,09:08,Late
+Jane Smith,2025-06-15,09:11,Late
+John Doe,2025-06-08,09:02,Present
+Grace Hopper,2025-06-17,-,Absent
+Grace Hopper,2025-06-12,09:13,Late
+Jane Smith,2025-06-16,09:08,Late
+Margaret Hamilton,2025-06-03,09:05,Present
+Guido van Rossum,2025-06-09,08:48,Present
+Margaret Hamilton,2025-06-11,08:51,Present
+Grace Hopper,2025-06-12,09:03,Present
+Jane Smith,2025-06-05,-,Absent
+John Doe,2025-06-01,09:01,Present
+Jane Smith,2025-06-17,08:57,Present
+Elon Musk,2025-06-18,08:51,Present
+Tim Berners-Lee,2025-06-05,08:59,Present
+Elon Musk,2025-06-11,09:08,Late
+Ada Lovelace,2025-06-17,09:04,Present
+Linus Torvalds,2025-06-15,08:59,Present
+Tim Berners-Lee,2025-06-05,08:49,Present
+Ada Lovelace,2025-06-04,09:03,Present
+Alan Turing,2025-06-03,09:00,Present
+Margaret Hamilton,2025-06-16,08:51,Present
+Tim Berners-Lee,2025-06-11,09:03,Present
+Grace Hopper,2025-06-18,09:07,Late
+Guido van Rossum,2025-06-09,08:54,Present
+Jane Smith,2025-06-01,09:07,Late
+Alan Turing,2025-06-16,08:52,Present
+Elon Musk,2025-06-05,08:50,Present
+Margaret Hamilton,2025-06-15,08:48,Present
+Linus Torvalds,2025-06-12,-,Absent
+Margaret Hamilton,2025-06-09,09:05,Present
+Linus Torvalds,2025-06-01,09:08,Late
+Tim Berners-Lee,2025-06-10,09:14,Late
+Linus Torvalds,2025-06-13,-,Absent
+Jane Smith,2025-06-17,09:01,Present
+Jane Smith,2025-06-06,-,Absent
+Elon Musk,2025-06-05,08:57,Present
+Alan Turing,2025-06-04,08:52,Present
+Guido van Rossum,2025-06-04,09:01,Present
+Margaret Hamilton,2025-06-09,09:13,Late
+Grace Hopper,2025-06-15,08:47,Present
+Guido van Rossum,2025-06-17,-,Absent
+Grace Hopper,2025-06-18,08:53,Present
+Guido van Rossum,2025-06-07,09:05,Present
+Alan Turing,2025-06-15,08:58,Present
+Alan Turing,2025-06-11,-,Absent
+Elon Musk,2025-06-16,09:01,Present
+John Doe,2025-06-05,09:03,Present
+Jane Smith,2025-06-19,09:01,Present
+Margaret Hamilton,2025-06-14,09:06,Late
+Tim Berners-Lee,2025-06-09,09:00,Present
+Ada Lovelace,2025-06-12,09:09,Late
+John Doe,2025-06-01,09:10,Late
+Elon Musk,2025-06-19,09:13,Late
+Grace Hopper,2025-06-03,08:50,Present
+Grace Hopper,2025-06-02,08:58,Present
+Alan Turing,2025-06-16,08:52,Present
+Grace Hopper,2025-06-20,09:00,Present
+Elon Musk,2025-06-01,09:09,Late
+Linus Torvalds,2025-06-13,09:03,Present
+Guido van Rossum,2025-06-09,08:46,Present
+Tim Berners-Lee,2025-06-02,-,Absent
+Guido van Rossum,2025-06-02,09:14,Late
+Ada Lovelace,2025-06-16,09:00,Present
+Ada Lovelace,2025-06-18,08:45,Present
+Ada Lovelace,2025-06-06,08:56,Present
+John Doe,2025-06-06,09:05,Present
+John Doe,2025-06-01,08:47,Present
+Tim Berners-Lee,2025-06-17,09:02,Present
+Alan Turing,2025-06-01,08:59,Present
+Guido van Rossum,2025-06-05,08:55,Present
+Tim Berners-Lee,2025-06-04,08:58,Present
+Guido van Rossum,2025-06-14,09:04,Present
+Elon Musk,2025-06-12,09:09,Late
+Margaret Hamilton,2025-06-03,08:53,Present
+Margaret Hamilton,2025-06-04,09:03,Present
+Grace Hopper,2025-06-11,09:00,Present
+Linus Torvalds,2025-06-03,09:06,Late
+John Doe,2025-06-06,08:55,Present
+Guido van Rossum,2025-06-19,09:08,Late
+Ada Lovelace,2025-06-08,09:06,Late
+Margaret Hamilton,2025-06-03,08:58,Present
+Jane Smith,2025-06-01,09:12,Late
+Jane Smith,2025-06-20,08:57,Present
+Grace Hopper,2025-06-08,08:47,Present
+Ada Lovelace,2025-06-09,09:08,Late
+Elon Musk,2025-06-16,08:54,Present
+Margaret Hamilton,2025-06-05,09:02,Present
+Tim Berners-Lee,2025-06-02,-,Absent
+Elon Musk,2025-06-01,08:58,Present
+Grace Hopper,2025-06-12,08:49,Present
+Tim Berners-Lee,2025-06-15,08:50,Present
+Jane Smith,2025-06-04,08:46,Present
+John Doe,2025-06-20,08:51,Present
+Elon Musk,2025-06-02,08:52,Present
+Linus Torvalds,2025-06-06,09:10,Late
+John Doe,2025-06-14,08:49,Present
+Elon Musk,2025-06-03,08:46,Present
+Guido van Rossum,2025-06-17,09:04,Present
+Elon Musk,2025-06-08,09:14,Late
+Elon Musk,2025-06-14,09:02,Present
+Elon Musk,2025-06-05,08:55,Present
+Grace Hopper,2025-06-10,08:46,Present
+John Doe,2025-06-18,08:52,Present
+Linus Torvalds,2025-06-07,08:54,Present
+Grace Hopper,2025-06-13,08:52,Present
+Linus Torvalds,2025-06-13,08:58,Present
+Grace Hopper,2025-06-08,09:15,Late
+Jane Smith,2025-06-06,08:45,Present
+Elon Musk,2025-06-20,08:56,Present
+Ada Lovelace,2025-06-19,09:06,Late
+Elon Musk,2025-06-17,09:12,Late
+Elon Musk,2025-06-16,08:52,Present
+Guido van Rossum,2025-06-19,08:57,Present
+Ada Lovelace,2025-06-15,08:56,Present
+Grace Hopper,2025-06-11,-,Absent
+Elon Musk,2025-06-16,08:48,Present
+John Doe,2025-06-11,08:58,Present
+Elon Musk,2025-06-06,09:09,Late
+Elon Musk,2025-06-05,08:55,Present
+John Doe,2025-06-07,08:52,Present
+Alan Turing,2025-06-18,08:59,Present
+John Doe,2025-06-10,09:14,Late
+Ada Lovelace,2025-06-04,09:06,Late
+Tim Berners-Lee,2025-06-19,08:47,Present
+Ada Lovelace,2025-06-12,08:46,Present
