@@ -1,32 +1,64 @@
-from langgraph.graph import StateGraph
-from langgraph.prebuilt import MessagesState
+from langgraph.graph import StateGraph, MessagesState, END
+from langgraph.prebuilt import ToolNode
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+from langchain.tools import Tool
+from utils.llms import LLMModel1
+from toolkit.tools import parse_transcript_tool_func, update_sheet_tool_func
+from prompt_library.prompt import SYSTEM_PROMPT
 
-# Placeholder for Groq or any LLM completion
-def fake_groq_response(attendance_data):
-    present = sum(1 for a in attendance_data if a["Status"] == "Present")
-    late = sum(1 for a in attendance_data if a["Status"] == "Late")
-    absent = sum(1 for a in attendance_data if a["Status"] == "Absent")
-    
-    return f"Today, {present} students were present, {late} were late, and {absent} were absent."
 
-# LangGraph-compatible node function
-def summarize_attendance(state: dict) -> dict:
-    messages = state.get("messages", [])
-    
-    # Extract last message that contains attendance list
-    if messages and "content" in messages[-1]:
-        attendance_data = messages[-1]["content"]
-        response = fake_groq_response(attendance_data)
-        
-        messages.append({"role": "assistant", "content": response})
-    else:
-        messages.append({"role": "assistant", "content": "No attendance data provided."})
-    
-    return {"messages": messages}
+class AttendanceAnalyzerAgent:
+    def __init__(self):
+        llm_model = LLMModel1()
+        self.llm = llm_model.get_model1()
+        self.system_prompt = SYSTEM_PROMPT
 
-# Build LangGraph agent
-def build_agent():
-    builder = StateGraph(MessagesState)
-    builder.add_node("summarizer", summarize_attendance)
-    builder.set_entry_point("summarizer")
-    return builder.compile()
+        self.tools = [
+            Tool.from_function(
+                func=parse_transcript_tool_func,
+                name="TranscriptParserTool",
+                description="Parse a transcript text string and return JSON records of attendance."
+            ),
+            Tool.from_function(
+                func=update_sheet_tool_func,
+                name="SheetUpdaterTool",
+                description="Save JSON attendance data into an Excel sheet."
+            )
+        ]
+
+        self.llm_with_tools = self.llm.bind_tools(self.tools)
+
+    def _reasoning_node(self, state: MessagesState) -> dict:
+        full_prompt = [self.system_prompt] + state["messages"]
+        response = self.llm_with_tools.invoke(full_prompt)
+
+        if isinstance(response, str):
+            response = AIMessage(content=response)
+
+        return {"messages": state["messages"] + [response]}
+
+    @staticmethod
+    def should_continue(state: MessagesState) -> str:
+        print("Evaluating stop condition. Messages so far:")
+        for msg in reversed(state["messages"]):
+            print(f"{msg.type}: {msg.content}")
+            if hasattr(msg, "content") and isinstance(msg.content, str):
+                content = msg.content.lower()
+                if "sheet updated" in content or "✅" in content:
+                    print("✅ Ending condition met.")
+                    return END
+        print("🔁 Continuing...")
+        return "tools"
+
+    def build(self):
+        builder = StateGraph(MessagesState)
+
+        builder.add_node("agent", self._reasoning_node)
+        builder.add_node("tools", ToolNode(self.tools))
+
+        builder.set_entry_point("agent")
+        builder.add_conditional_edges("agent", self.should_continue)
+        builder.add_edge("tools", "agent")
+
+        return builder.compile()
+

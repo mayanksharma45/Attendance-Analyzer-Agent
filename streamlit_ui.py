@@ -1,36 +1,46 @@
 import streamlit as st
-from toolkit.parser import TranscriptParser
-from utils.updater import AttendanceSaver
-from agent import build_agent
+from langchain_core.messages import HumanMessage
+from agent import AttendanceAnalyzerAgent
+import pandas as pd
+import os
 
-st.set_page_config(page_title="Attendance Analyzer", layout="centered")
-st.title("📊 AI-Powered Attendance Analyzer Agent")
+OUTPUT_PATH = "attendance_sheet.xlsx"
 
-# Upload section
-uploaded_file = st.file_uploader("📁 Upload Attendance CSV", type=["csv"])
+st.set_page_config(page_title="AI Attendance Analyzer", layout="centered")
+st.title("AI-Powered Attendance Analyzer Agent")
+
+uploaded_file = st.file_uploader("📁 Upload Attendance Transcript (.txt or .csv)", type=["txt", "csv"])
+
+agent = AttendanceAnalyzerAgent()
+app = agent.build()
 
 if uploaded_file:
-    st.success("✅ File uploaded!")
+    file_content = uploaded_file.read().decode("utf-8")
 
-    # Parse and classify attendance
-    parser = TranscriptParser(uploaded_file)
-    parser.load_csv()
-    parser.classify_attendance()
-    attendance = parser.get_attendance()
+    if st.button("Analyze Attendance"):
+        with st.spinner("Analyzing... ⏳"):
+            try:
+                messages = [HumanMessage(content=file_content)]
 
-    # Display parsed data
-    st.subheader("📋 Classified Attendance")
-    st.dataframe(attendance, use_container_width=True)
+                app.invoke({"messages": messages})
 
-    # Save to CSV
-    saver = AttendanceSaver()
-    saved_path = saver.save(attendance)
+                if os.path.exists(OUTPUT_PATH):
+                    df = pd.read_excel(OUTPUT_PATH)
 
-    # Run LangGraph agent
-    st.subheader("🧠 AI Summary")
-    graph = build_agent()
-    state = {"messages": [{"role": "user", "content": attendance}]}
-    final_state = graph.invoke(state)
-    st.info(final_state['messages'][-1]['content'])
+                    st.subheader("📋 Classified Attendance Sheet")
+                    st.dataframe(df, use_container_width=True)
 
-    st.success("✅ Attendance processing complete!")
+                    with open(OUTPUT_PATH, "rb") as f:
+                        st.download_button(
+                            label="⬇️ Download Attendance Sheet",
+                            data=f,
+                            file_name="attendance_sheet.xlsx",
+                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        )
+
+                st.success("✅ Attendance analysis completed.")
+
+            except Exception as e:
+                st.error(f"❌ Error: {str(e)}")
+else:
+    st.info("📌 Please upload a transcript or CSV file to start.")

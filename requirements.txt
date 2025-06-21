@@ -1,7 +1,11 @@
 langchain
+langchain_community 
 langgraph
-groq
+langchain-groq
+google-generativeai
+langchain-google-genai
 python-dotenv
 pandas
 openpyxl
 streamlit
+# -e .
